@@ -1,0 +1,84 @@
+CSS
+/* Quando il body ha la classe .dark-mode, cambiano i colori */
+body.dark-mode {
+display: flex;
+flex-direction: column;
+align-items: center;
+background-color: #1a1a1a !important; /* Colore sfondo scuro */
+color: #ffffff; /* Testo bianco */
+ }
+
+ /* Modifica anche i tuoi bottoni .btn quando sono in Dark Mode */
+body.dark-mode .btn {
+font-family: 'young serif', static;
+background-color: #333;
+color: #fff;
+border: 0px solid #333;
+}
+/* 1. CONFIGURAZIONE GENERALE */
+* {
+margin: 0;
+padding: 3;
+box-sizing: border-box;
+}
+body {
+/* Applichiamo il font di Google Fonts */
+font-family: 'young serif', static;
+background-color: #88a33b; /* Sfondo neutro */
+display: flex;
+flex-direction: column;
+align-items: center;
+padding: 40px 20px;
+}
+/* 2. STILE INTESTAZIONE */
+.profile-img {
+width: 150px;
+height: 150px;
+border-radius: 50%; /* Immagine tonda */
+border: 0px ;
+box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+h1 {
+margin: 15px 0 5px;
+font-size: 22px;
+color: #105666;
+}
+/* 3. IL CONTENITORE DEI BOTTONI */
+.container {
+width: 80%;
+max-width: 400px; /* Larghezza ottimale smartphone */
+margin-top: 30px;
+}
+.btn {
+display: flex;
+align-items: center;
+justify-content: center;
+background-color: #ffffff;
+color: #333;
+text-decoration: none; /* Rimuove sottolineatura */
+padding: 18px;
+margin-bottom: 12px;
+
+border-radius: 30px; /* Angoli arrotondati */
+font-weight: 500;
+transition: all 0.3s ease; /* Animazione fluida */
+box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+.btn i {
+margin-right: 12px; /* Spazio tra icona e testo */
+font-size: 1.3rem;
+}
+/* 4. EFFETTO HOVER: L'anima del sito */
+.btn:hover {
+background-color: #5a94a7; /* Cambia colore al passaggio mouse */
+color: white;
+transform: translateY(-4px); /* Si solleva leggermente */
+box-shadow: 0 6px 15px rgba(52, 152, 219, 0.3);
+  .canva-image {
+    width: 150px;
+    height: 150px;
+    border: 0px;
+    border-radius: 100%;
+    box-shadow: 0 4px 10px rgba(0,0,0,1);
+   } 
+}
